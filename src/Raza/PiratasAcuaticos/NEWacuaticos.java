@@ -10,16 +10,9 @@ public class NEWacuaticos implements acuaticos{
     
     @Override
     public void getInfo() {
-        System.out.println("");
-        System.out.println("-------------------MECANICO-------------------");
-        System.out.println("Velocidad de creacion de tropas: [II--------]");
-        System.out.println("Costo de las tropas: [IIIIII----]");
-        System.out.println("Velocidad de cracion de vehiculos: [IIIIIIIII-]");
-        System.out.println("Costo de los vehiculos: [II--------]");
-        System.out.println("Velocidad de creacion de edificios: [IIIIII----]");
-        System.out.println("Costo de los edificios: [II--------]");
-        System.out.println("");
-        //return "hola";
+        System.out.println("\n///////////////////ACUATICOS////////////////\n"
+                + "Estos piratas son comandados POR DAVY JONES, EL DUENIO DE LAS PROFUNDIDADES DEL"
+                + "OCEANO.");
     }   
     @Override
     public int getCreateTroops(){

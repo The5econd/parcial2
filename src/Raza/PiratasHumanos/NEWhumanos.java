@@ -10,16 +10,9 @@ public class NEWhumanos implements humanos {
     
     @Override
     public void getInfo() {
-        System.out.println("");
-        System.out.println("--------------------MILITAR--------------------");
-        System.out.println("Velocidad de creacion de tropas: [IIIIIIIII-]");
-        System.out.println("Costo de las tropas: [III-------]");
-        System.out.println("Velocidad de cracion de vehiculos: [IIIIII----]");
-        System.out.println("Costo de los vehiculos: [IIIII-----]");
-        System.out.println("Velocidad de creacion de edificios: [II--------]");
-        System.out.println("Costo de los edificios: [IIIIIII---]");
-        System.out.println("");
-        //return "hola";
+        System.out.println("\n///////////////////HUMANOS////////////////\n"
+                + "Estos piratas son comandados POR JACK SPARROW, EL MEJOR PIRATA JAMAS VISTO Y TAMBIEN"
+                + "ARCHIENEMIGO DE DAVY JONES, EL DUENIO DEL OCEANO.");
     }    
     @Override
     public int getCreateTroops(){
