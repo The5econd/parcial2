@@ -9,9 +9,9 @@ public class NEWmarina implements marina{
     int costTroops = 5,costTransport = 5,costBuilding = 3;
     @Override
     public void getInfo() {
-        System.out.println("\n///////////MARINA/////////////////");
+        System.out.println("\n///////////MARINA/////////////////\n");
         System.out.println("SON LOS MAS TEMIDOS POR LOS 7 MARES, EN ESPECIAL POR LOS PIRATAS HUMANOS"
-                + " COMANDADOS POR NADA MAS Y NADA MENOS QUE EL GRAN CAPITAN JACK SPARROW.");
+                + " COMANDADOS POR NADA MAS Y NADA MENOS QUE EL GRAN CAPITAN JACK SPARROW.\n");
     }
     @Override
     public int getCreateTroops(){

@@ -12,7 +12,7 @@ public class NEWhumanos implements humanos {
     public void getInfo() {
         System.out.println("\n///////////////////HUMANOS////////////////\n"
                 + "Estos piratas son comandados POR JACK SPARROW, EL MEJOR PIRATA JAMAS VISTO Y TAMBIEN"
-                + "ARCHIENEMIGO DE DAVY JONES, EL DUENIO DEL OCEANO.");
+                + "ARCHIENEMIGO DE DAVY JONES, EL DUENIO DEL OCEANO.\n");
     }    
     @Override
     public int getCreateTroops(){

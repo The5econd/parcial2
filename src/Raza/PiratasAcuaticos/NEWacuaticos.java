@@ -12,7 +12,7 @@ public class NEWacuaticos implements acuaticos{
     public void getInfo() {
         System.out.println("\n///////////////////ACUATICOS////////////////\n"
                 + "Estos piratas son comandados POR DAVY JONES, EL DUENIO DE LAS PROFUNDIDADES DEL"
-                + "OCEANO.");
+                + "OCEANO.\n");
     }   
     @Override
     public int getCreateTroops(){
